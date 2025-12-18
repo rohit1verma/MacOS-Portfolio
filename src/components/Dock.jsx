@@ -8,7 +8,7 @@ const Dock = () => {
   const dockRef = useRef(null);
 
   const toggleApp = (app) => {
-    
+
   };
 
   useGSAP(()=>{
@@ -81,7 +81,7 @@ const Dock = () => {
             </button>
           </div>
         ))}
-        <Tooltip id="dock-tooltip" place="top" effect="solid" className="tooltip"/>
+        <Tooltip id="dock-tooltip" place="top" className="tooltip"/>
       </div>
     </section>
   );
