@@ -101,28 +101,32 @@ const blogPosts = [
 
 const techStack = [
   {
-    category: "Frontend",
-    items: ["React.js", "Next.js", "TypeScript"],
+    category: "Languages",
+    items: ["Java", "Python", "C"],
   },
   {
-    category: "Mobile",
-    items: ["React Native", "Expo"],
+    category: "Frontend",
+    items: ["React.js", "Next.js", "JavaScript"],
   },
   {
     category: "Styling",
-    items: ["Tailwind CSS", "Sass", "CSS"],
+    items: ["TailwindCSS", "CSS"],
   },
   {
     category: "Backend",
-    items: ["Node.js", "Express", "NestJS", "Hono"],
+    items: ["Node.js", "Express.js", "NestJS"],
   },
   {
     category: "Database",
-    items: ["MongoDB", "PostgreSQL"],
+    items: ["MongoDB", "MySQL"],
   },
   {
     category: "Dev Tools",
-    items: ["Git", "GitHub", "Docker"],
+    items: ["Git", "GitHub", "Docker", "Kubernetes"],
+  },
+  {
+    category: "Core Subjects",
+    items: ["OOP", "DSA","Computer Networks","OS","DBMS" ],
   },
 ];
 
@@ -132,7 +136,7 @@ const socials = [
     text: "Github",
     icon: "/icons/github.svg",
     bg: "#f4656b",
-    link: "https://github.com/JavaScript-Mastery-Pro",
+    link: "https://github.com/rohit1verma",
   },
   {
     id: 2,
@@ -143,17 +147,10 @@ const socials = [
   },
   {
     id: 3,
-    text: "Twitter/X",
-    icon: "/icons/twitter.svg",
-    bg: "#ff866b",
-    link: "https://x.com/jsmasterypro",
-  },
-  {
-    id: 4,
     text: "LinkedIn",
     icon: "/icons/linkedin.svg",
     bg: "#05b6f6",
-    link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+    link: "https://www.linkedin.com/in/rohit-kumar-334132317/",
   },
 ];
 
