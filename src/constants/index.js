@@ -44,7 +44,7 @@ const dockApps = [
   },
   {
     id: "safari",
-    name: "Articles", // was "Safari"
+    name: "Education", // was "Safari"
     icon: "safari.png",
     canOpen: true,
   },
@@ -93,9 +93,9 @@ const blogPosts = [
   {
     id: 3,
     date: "2022 - Present",
-    title: "B.E in Computer Science and Engineering (BLDEACET, Vijayapura (Karnataka))",
+    title: "B.E in Computer Science and Engineering (BLDEACET, Vijayapura,(Karnataka))",
     // image: "/images/blog3.png",
-    link: "Specialized in Physics, Chemistry, and Mathematics, excelling in advanced scientific concepts and problem-solving skills, preparing for a career in engineering.",
+    link: "Pursuing a B.E degree with a focus on computer science, gaining knowledge in programming, data structures, algorithms, and software development, while actively participating in tech projects and internships.",
   },
 ];
 
@@ -223,7 +223,7 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 5,
-      name: "Nike Ecommerce Website Application",
+      name: "AeroRide Riding Application",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-5", // icon position inside Finder
@@ -231,30 +231,30 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Nike Project.txt",
+          name: "AeroRide.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-            "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-            "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-            "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+            "AeroRide is a sleek and modern ride-hailing platform that brings the excitement of a city's flagship taxi service straight to your device.",
+            "Beyond simple ride booking, it delivers an immersive experience with real-time driver tracking, dynamic fare estimates, and instant communication via Socket.IO.",
+            "Think of it as stepping into a premium ride-hailing lounge—right from your phone or laptop.",
+            "Powered by React+Vite, Tailwind CSS, Node+Express, and MongoDB, it ensures fast performance, responsive design, and a polished, premium look.",
           ],
         },
         {
           id: 2,
-          name: "nike.com",
+          name: "AeroRide.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+          href: "https://github.com/rohit1verma/Riding-application.git",
           position: "top-10 right-20",
         },
         {
           id: 4,
-          name: "nike.png",
+          name: "aeroRide.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
@@ -276,7 +276,7 @@ const WORK_LOCATION = {
     // ▶ Project 2
     {
       id: 6,
-      name: "AI Resume Analyzer",
+      name: "MYGPT ",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-52 right-80",
@@ -284,30 +284,29 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "AI Resume Analyzer Project.txt",
+          name: "MYGPT Project.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 right-10",
           description: [
-            "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
-            "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
-            "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
-            "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
+            "A sleek, AI-powered chat platform that brings the power of cutting-edge language models straight to your browser.",
+            "Beyond simple Q&A, it delivers real-time streaming responses, persistent conversation history, and seamless model switching via OpenRouter.",
+            "Powered by React+Vite, Tailwind CSS, Node+Express, and MongoDB, it ensures lightning-fast performance, responsive design, and a polished, premium user experience.",
           ],
         },
         {
           id: 2,
-          name: "ai-resume-analyzer.com",
+          name: "MYGPT.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+          href: "https://github.com/rohit1verma/MyGPT.git",
           position: "top-20 left-20",
         },
         {
           id: 4,
-          name: "ai-resume-analyzer.png",
+          name: "MYGPT.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
@@ -329,7 +328,7 @@ const WORK_LOCATION = {
     // ▶ Project 3
     {
       id: 7,
-      name: "Food Delivery App",
+      name: "SmartRespire",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
@@ -337,30 +336,30 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Food Delivery App Project.txt",
+          name: "SmartRespire App Project.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-            "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-            "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-            "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+            "SmartRespire is an AI-driven healthcare platform that offers a fast and convenient way to predict respiratory diseases based on user symptoms.",
+            "Instead of relying on manual symptom tracking or waiting for initial clinical screenings, you can analyze health data and receive real-time predictions powered by deep learning.",
+            "Think of it like having a personal respiratory health specialist in your pocket—always ready to provide early detection insights whenever and wherever you need them.",
+            "It's built with Python, Flask, and Keras, ensuring high-performance AI inference with a clean, modern web interface for a seamless and accessible health management experience.",
           ],
         },
         {
           id: 2,
-          name: "food-delivery-app.com",
+          name: "SmartRespire.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
+          href: "https://github.com/rohit1verma/SmartRespire.git",
           position: "top-10 right-20",
         },
         {
           id: 4,
-          name: "food-delivery-app.png",
+          name: "SmartRespire.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
