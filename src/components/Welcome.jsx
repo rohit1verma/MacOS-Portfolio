@@ -3,9 +3,9 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 
 const FONT_WEIGHTS = {
-    subtitle:{ min: 100, max: 400, default: 100 },
-    title:{ min: 400, max: 900, default: 400 },
-}
+  subtitle: { min: 100, max: 400, default: 100 },
+  title: { min: 400, max: 900, default: 400 },
+};
 const renderText = (text, className, baseWeight = 400) => {
   return [...text].map((char, i) => (
     <span
@@ -19,54 +19,56 @@ const renderText = (text, className, baseWeight = 400) => {
 };
 
 const setupTextHover = (container, type) => {
-    if(!container) return()=>{};
+  if (!container) return () => {};
 
-    const letters = container.querySelectorAll('span');
-    const {min, max, default: base} = FONT_WEIGHTS[type];
+  const letters = container.querySelectorAll("span");
+  const { min, max, default: base } = FONT_WEIGHTS[type];
 
-    const animateLetter = (letter, weight, duration = 0.25) => {
-        return gsap.to(letter, {duration, ease: 'power2.out',
-            fontVariationSettings:`'wght' ${weight}`
-        });
-    };
+  const animateLetter = (letter, weight, duration = 0.25) => {
+    return gsap.to(letter, {
+      duration,
+      ease: "power2.out",
+      fontVariationSettings: `'wght' ${weight}`,
+    });
+  };
 
-    const handleMouseMove = (e) => {
-        const { left } = container.getBoundingClientRect();
-        const mouseX = e.clientX - left;
+  const handleMouseMove = (e) => {
+    const { left } = container.getBoundingClientRect();
+    const mouseX = e.clientX - left;
 
-        letters.forEach((letter)=>{
-            const{left:l, width:w} = letter.getBoundingClientRect();
-            const distance = Math.abs(mouseX-(l-left+w/2));
-            const intensity = Math.exp(-(distance ** 2)/20000);
+    letters.forEach((letter) => {
+      const { left: l, width: w } = letter.getBoundingClientRect();
+      const distance = Math.abs(mouseX - (l - left + w / 2));
+      const intensity = Math.exp(-(distance ** 2) / 20000);
 
-            animateLetter(letter,min+(max-min)*intensity);
-        });
-    };
+      animateLetter(letter, min + (max - min) * intensity);
+    });
+  };
 
-    const handleMouseLeave = () => 
-        letters.forEach((letter)=>animateLetter(letter, base, 0.3));
+  const handleMouseLeave = () =>
+    letters.forEach((letter) => animateLetter(letter, base, 0.3));
 
-    container.addEventListener('mousemove',handleMouseMove);
-    container.addEventListener('mouseleave',handleMouseLeave);
+  container.addEventListener("mousemove", handleMouseMove);
+  container.addEventListener("mouseleave", handleMouseLeave);
 
-    return()=>{
-        container.removeEventListener('mousemove',handleMouseMove);
-        container.removeEventListener('mouseleave',handleMouseLeave);
-    }
+  return () => {
+    container.removeEventListener("mousemove", handleMouseMove);
+    container.removeEventListener("mouseleave", handleMouseLeave);
+  };
 };
 
 const Welcome = () => {
   const titleRef = useRef(null);
   const subtitleRef = useRef(null);
-  useGSAP(()=>{
-    const titleClenup = setupTextHover(titleRef.current,'title');
-    const subtitleClenup = setupTextHover(subtitleRef.current,'subtitle');
+  useGSAP(() => {
+    const titleClenup = setupTextHover(titleRef.current, "title");
+    const subtitleClenup = setupTextHover(subtitleRef.current, "subtitle");
 
-    return()=>{
-        subtitleClenup();
-        titleClenup();
-    }
-  },[])
+    return () => {
+      subtitleClenup();
+      titleClenup();
+    };
+  }, []);
 
   return (
     <section id='welcome'>
@@ -78,7 +80,7 @@ const Welcome = () => {
         )}
       </p>
       <h1 ref={titleRef} className='mt-7'>
-     {renderText("Portfolio", 'text-9xl italic font-georama')}
+        {renderText("Portfolio", "text-9xl italic font-georama")}
       </h1>
       <div className='small-screen'>
         <p>This portfolio is designed for desktop/tablet screens only.</p>

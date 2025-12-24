@@ -77,27 +77,28 @@ const dockApps = [
 const blogPosts = [
   {
     id: 1,
-    date: "Sep 2, 2025",
+    date: "2019 - 2020",
     title:
-      "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
-    image: "/images/blog1.png",
-    link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+      "10th Grade - High School (K.K Vidyalaya Sr. Sec. School, Billawar (J&K))",
+    // image: "/images/blog1.png",
+    link: "Completed high school with a focus on science subjects, achieving a strong academic record and laying the foundation for future studies in technology and engineering.",
   },
   {
     id: 2,
-    date: "Aug 28, 2025",
-    title: "The Ultimate Guide to Mastering Three.js for 3D Development",
-    image: "/images/blog2.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
+    date: "2021 - 2022",
+    title: "12th Grade - Senior Secondary (K.K Vidyalaya Sr. Sec. School, Billawar (J&K))",
+    // image: "/images/blog2.png",
+    link: "Specialized in Physics, Chemistry, and Mathematics, excelling in advanced scientific concepts and problem-solving skills, preparing for a career in engineering.",
   },
   {
     id: 3,
-    date: "Aug 15, 2025",
-    title: "The Ultimate Guide to Mastering GSAP Animations",
-    image: "/images/blog3.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
+    date: "2022 - Present",
+    title: "B.E in Computer Science and Engineering (BLDEACET, Vijayapura (Karnataka))",
+    // image: "/images/blog3.png",
+    link: "Specialized in Physics, Chemistry, and Mathematics, excelling in advanced scientific concepts and problem-solving skills, preparing for a career in engineering.",
   },
 ];
+
 
 const techStack = [
   {
@@ -114,7 +115,7 @@ const techStack = [
   },
   {
     category: "Backend",
-    items: ["Node.js", "Express.js", "NestJS"],
+    items: ["Node.js", "Express.js"],
   },
   {
     category: "Database",
