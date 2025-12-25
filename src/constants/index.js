@@ -394,7 +394,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "/images/adrian.jpg",
+      imageUrl: "/images/rohit.jpeg",
     },
     {
       id: 2,
@@ -403,7 +403,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-28 right-72",
-      imageUrl: "/images/adrian-2.jpg",
+      imageUrl: "/images/rohit-2.jpeg",
     },
     {
       id: 3,
@@ -412,7 +412,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-52 left-80",
-      imageUrl: "/images/adrian-3.jpeg",
+      imageUrl: "/images/rohit-3.jpeg",
     },
     {
       id: 4,
@@ -422,12 +422,12 @@ const ABOUT_LOCATION = {
       fileType: "txt",
       position: "top-60 left-5",
       subtitle: "Meet the Developer Behind the Code",
-      image: "/images/adrian.jpg",
+      image: "/images/rohit.jpeg",
       description: [
-        "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-        "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-        "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-        "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
+        "Hey, I’m Rohit 👋 — a computer science student who builds software that’s meant to work in the real world, not just look good in demos.",
+        "I work across full-stack and AI projects, with hands-on experience in JavaScript, React, Node.js, Python, and machine-learning systems.",
+        "I’m especially interested in Full Stack Development, and AI-driven systems — the parts most people avoid, but where real problems actually live.",
+       
       ],
     },
   ],
