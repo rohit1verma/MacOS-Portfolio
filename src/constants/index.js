@@ -159,7 +159,7 @@ const photosLinks = [
   {
     id: 1,
     icon: "/icons/gicon1.svg",
-    title: "Library",
+    title: "Certificates",
   },
   {
     id: 2,
