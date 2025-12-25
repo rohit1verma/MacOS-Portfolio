@@ -141,10 +141,10 @@ const socials = [
   },
   {
     id: 2,
-    text: "Platform",
-    icon: "/icons/atom.svg",
+    text: "Leetcode",
+    icon: "/icons/leetcode.svg",
     bg: "#4bcb63",
-    link: "https://jsmastery.com/",
+    link: "https://leetcode.com/u/Rohit-verma/",
   },
   {
     id: 3,
